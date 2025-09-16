@@ -74,4 +74,62 @@ if(age>=18):
 else:
     print("Not Eligble")    '''
 
+
+# COMPARISON Operators
+#Q1
+'''n1=int(input("Enter the Num1:"))
+n2=int(input("Enter the Num2:"))
+print(n1==n2)'''
+
+#Q2
+'''n1=int(input("Enter the Num1:"))
+n2=int(input("Enter the Num2:"))
+if(n1>n2):
+    print(n1)
+else:
+    print(n2)   ''' 
+    
+#Q3
+'''n1=int(input("Enter the num1:"))
+n2=int(input("Enter the num2:"))
+n3=int(input("Enter the num3:"))
+if(n1<n2)and(n2<n3):
+    print("n1 is smallest",n1)
+elif(n2<n3)and(n3<n1)    :
+    print("n2 is smallest",n2)
+else:
+    print("n3 is smallest",n3)    '''
+
+#Q4
+'''marks=int(input("Enter the marks:"))
+if(marks>=40):
+    print("Pass")
+else:
+    print("Fail")'''
+
+#Q5
+'''age=int(input("Enter the Age:"))
+if(age>=18):
+    print("Eligble")        
+else:
+    print("Not Eligble")    '''
+
 #Q6   
+'''amt=int(input("Enter your purchase amount"))
+card=input("Verify the Card yes/no")'''
+
+#Q7
+
+'''num=int(input("Enter the number"))
+if(num%3==0):
+    print("The number is divisible")
+else:
+    print("Not Divisible")   '''
+    
+#Q8
+'''age=int(input("enter the age")) 
+if(13<=age<=19)   :
+    print("Teenager")
+    
+else:
+    print("Not Teenager")  '''   
