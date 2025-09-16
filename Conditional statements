@@ -1,0 +1,48 @@
+#####Conditional Statements
+##Example1
+'''if age>18:
+    print("Adult")
+else:
+    print("Minor")   
+    
+##Example2
+if age<13:
+    print("Child")
+elif age<20:
+    print("Teen")
+else:
+    print("Adult")      '''
+    
+##Example3
+'''def switch_example(day):
+    return{
+        1:"Monday",
+        2:"Tuesday",
+        3:"WEdnesday",
+        4:"Thursday",
+        5:"Friday",
+        6:"Saturday",
+        7:"Sunday"
+        
+    }       .get(day,"Invalid day")
+    print(switch-example(2))
+    '''
+ ##example 4
+'''num=int(input("Enter the Number"))  
+if num>0:
+    print("Positive Number")
+    if num%2==0:
+        print("It's Even")
+    else:
+        print("It's odd")
+else:
+    print("negative Number")            
+        '''
+##Example 5
+'''for i in range(5)
+print (i)'''        
+
+'''count=0
+while count<5:
+    print(count)
+    count+=1'''
