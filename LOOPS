@@ -1,0 +1,69 @@
+#Q1
+'''
+for i in range(1,11):
+    print(i)
+'''    
+#Q2
+'''
+sum=0
+i=1
+while i<11:
+    sum=sum+i 
+    i=i+1
+print(sum)
+'''
+#Q3
+'''
+num=int(input("Enter the number"))
+for i in range(1,11):
+    print(num,"X",i,"=",num*i)  
+'''    
+#Q4
+'''
+num=int(input("Enter the Number"))
+
+fact=1
+while num>0 :
+    fact=fact*num
+    num=num-1 
+    
+print (fact)   
+'''
+#Q5
+'''
+num=int(input("Enter the num"))
+temp=num
+rev=0
+while temp>0:
+    rem=temp%10
+    rev=rev*10+rem
+    temp=temp//10
+print(rev)
+'''
+#Q6
+'''
+for num in range(1, 51):
+    if num % 2 == 0:
+        print(num, end=" ")
+'''        
+#Q7
+'''
+num = int(input("Enter a number: "))
+original = num
+digit_sum = 0
+
+while num > 0:
+    digit_sum += num % 10   
+    num //= 10              
+
+print("Sum of digits of {original} = {digit_sum}")     
+'''
+#Q8
+'''
+a, b = 0, 1
+print("First 10 terms of Fibonacci sequence:")
+
+for _ in range(10):
+    print(a, end=" ")
+    a, b = b, a + b
+'''    
